@@ -8,11 +8,14 @@ body {
     width: 100vw;
     height: 100vh;
     background-image: url("img/cidade\ invisível.png");
+    background-color: #00000055;
+    background-blend-mode: darken;
     background-size: cover;
     background-position: right top ;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
+    color: white;
 }
 
 header {
@@ -44,11 +47,60 @@ header {
     color: red;
 }
 main {
-    /*background-color: tomato;*/
+    padding: 20vh 10vw;
     flex-grow: 1;
 }
+
+main h2 {
+    font-size: 30px;
+}
+
+main h1 {
+    font-size: 70px;
+}
+main p {
+    font-size: 25px;
+    font-weight: 200;
+    max-width: 800px;
+}
+main a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none ;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: goldenrod;
+    margin-top: 30px;
+    border-radius: 2px;  
+    transition: all .5s;
+}
+
+main a:hover {
+    border: solid 1px goldenrod;
+    background-color: black;
+}
 footer {
-   /* background-color: turquoise;*/
-    flex-grow: 1;
     height: 40px;
+    text-align: center;
+}
+.butterfly {
+    position: absolute;
+    width: 60px;
+    top: 90vh;
+    left: 90vw;
+    filter: brightness(10%);
+    animation: voar 20s linear infinite;
+}
+
+@keyframes voar {
+    0% { 
+        transform: translate(0,0);
+    }
+    100% {
+        transform: translate(-90vw, -90vh);
+    }
+
 }
