@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 header {
@@ -65,7 +65,7 @@ h1 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
     box-shadow: #FFFFFF;
-    text-shadow: 0.1em 0.1em 0.3em #000;*/ /*pmiha maneira de fazer a sombra */
+    text-shadow: 0.1em 0.1em 0.3em #000;*/ /*minha maneira de fazer a sombra */
     position: relative;
     font-size: 100px;
     -webkit-text-stroke: 2px white;
