@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 body {
@@ -28,11 +29,11 @@ header {
 .logo img {
     width: 120px;
 }
-.links ul {
+.links > ul {
     display: flex;
     gap: 20px;
     color: white;
-    list-style-type: none;
+   
 }
 .links a {
     color: white;
@@ -70,6 +71,7 @@ h1 {
     font-size: 100px;
     -webkit-text-stroke: 2px white;
     color: transparent; /* sombra com acompanhamento do prof + main h1:: after*/
+    width: 30px;
 }
 
 main h1::after{
@@ -107,6 +109,7 @@ h2 {
 }
 .info__area .info p, .info__area .info h3 {
     font-style: italic;
+    
 }
 .info__area .info h3 {
     font-size: 25px;
@@ -121,3 +124,5 @@ footer {
     height: 40px;
     text-align: center;
 }
+
+

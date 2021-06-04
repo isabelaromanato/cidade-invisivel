@@ -1,0 +1,34 @@
+.menu {
+    display: flex;
+}
+ .menu li:hover > .submenu {
+     display: block;
+ }
+
+.submenu{
+    margin-top: 1px; 
+    display: none; 
+    position: absolute;
+    
+}
+
+.submenu a{
+    width: 210px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #000000AA;
+    
+}
+
+.submenu a:hover {
+    border-left: 10px solid red;
+}
+/* barrinha vermelha */
+
+.menu a span {
+ font-size: 20px ;
+}
+/* setinha */
