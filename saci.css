@@ -113,6 +113,13 @@ h2 {
     font-size: 25px;
     font-weight: 400;
 }
+.description__area {
+    text-align: justify;
+
+    }
+    .info__area {
+        width: 600px;
+    }
 .linha {
     height: 50px;
     border-left: 3px solid red;

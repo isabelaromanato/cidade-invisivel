@@ -118,6 +118,10 @@ h2 {
 .info__area {
     width: 500px;
 }
+.description__area {
+    text-align: justify;
+
+    }
 
 .linha {
     height: 50px;

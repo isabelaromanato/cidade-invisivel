@@ -8,7 +8,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: url('img/tutu.webp');
+    background: url('img/isaa.jpg');
     background-size: cover;
     background-position: center top;
     display: flex;
@@ -75,7 +75,7 @@ h1 {
 }
 
 main h1::after{
-    content: "Tutu";
+    content: "Isabela";
     position: absolute;
     top: 4px;
     left: 4px;
@@ -115,12 +115,15 @@ h2 {
     font-size: 25px;
     font-weight: 400;
 }
-.info__area {
-    width: 600px;
-}
 .description__area {
     text-align: justify;
 
+    }
+    .info__area {
+        width: 500px;
+    }
+    .description__area p {
+        font-size: 20px;
     }
 .linha {
     height: 50px;
